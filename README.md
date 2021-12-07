@@ -14,8 +14,15 @@ Using the slicing concept rotate the list
 
 ### Step 5: 
 ### Step 6: 
-## Program:
+## Program:def circulate():
+    n=int(input())
+    l=[10,20,30,40,50,60]
+    l=l[n:]+l[:n]
+    print("After circulating the values are:",l)
 
-## Output:
+## OUTPUT
+
+![OUTPUT](./CRC.png)
 
 ## Result:
+Thus the circulate the values of n variables are executed
